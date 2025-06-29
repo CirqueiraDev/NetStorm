@@ -1,0 +1,29 @@
+# Ignora caches do Python
+__pycache__/
+*.py[cod]
+
+# Ambientes virtuais
+env/
+venv/
+ENV/
+.VENV/
+
+# Arquivos de configuração do editor
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Banco de dados SQLite (opcional)
+*.sqlite
+*.sqlite3
+
+# Arquivos de build
+build/
+dist/
+*.egg-info/
