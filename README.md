@@ -19,7 +19,7 @@
 
 ### 💣 Layer 7 Methods
 
-|               | Nome       | Descrição                                                           |
+|               | Comando    | Descrição                                                           |
 |---------------|------------|----------------------------------------------------------------------|
 | `get`         | GET        | GET Flood                                                           |
 | `post`        | POST       | POST Flood                                                          |
@@ -49,7 +49,7 @@
 
 ### 🧨 Layer 4 Methods
 
-|               | Nome         | Descrição                                               |
+|               | Comando      | Descrição                                               |
 |---------------|--------------|----------------------------------------------------------|
 | `tcp`         | TCP          | TCP Flood Bypass                                        |
 | `udp`         | UDP          | UDP Flood Bypass                                        |
