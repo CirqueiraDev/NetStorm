@@ -89,10 +89,6 @@
 | `check`   | Verificar status de um site                                     |
 | `dstat`   | Ver tráfego (bytes recebidos e enviados)                       |
 
----
-
-### 🎩 Outros
-
 | Comando   | Descrição                      |
 |-----------|-------------------------------|
 | `stop`    | Parar todos os ataques      |
