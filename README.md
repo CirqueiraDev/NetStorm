@@ -2,11 +2,10 @@
 <em><h5 align="center">(Programming Language - Python 3)</h5></em>
 
 <p align="center">
-<a href="#"><img alt="NetStorm forks" src="https://img.shields.io/github/forks/CirqueiraDev/NetStorm?style=for-the-badge"></a>
 <a href="#"><img alt="NetStorm last commit (main)" src="https://img.shields.io/github/last-commit/CirqueiraDev/NetStorm/main?color=green&style=for-the-badge"></a>
 <a href="#"><img alt="NetStorm Repo stars" src="https://img.shields.io/github/stars/CirqueiraDev/NetStorm?style=for-the-badge&color=yellow"></a>
 <a href="#"><img alt="NetStorm License" src="https://img.shields.io/github/license/CirqueiraDev/NetStorm?color=orange&style=for-the-badge"></a>
-<a href="https://github.com/CirqueiraDev/NetStorm/issues"><img alt="Issues" src="https://img.shields.io/github/issues/CirqueiraDev/NetStorm?color=purple&style=for-the-badge"></a>
+<a href="https://github.com/CirqueiraDev/NetStorm"><img alt="Issues" src="https://komarev.com/ghpvc/?username=CirqueiraDev&style=for-the-badge&color=blueviolet&label=Views"></a>
 
 <p align="center">Please don't attack websites without the owner's consent.</p>
 
