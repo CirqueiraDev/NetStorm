@@ -3,9 +3,8 @@
 
 <p align="center">
 <a href="#"><img alt="NetStorm last commit (main)" src="https://img.shields.io/github/last-commit/CirqueiraDev/NetStorm/main?color=green&style=for-the-badge"></a>
-<a href="#"><img alt="NetStorm Repo stars" src="https://img.shields.io/github/stars/CirqueiraDev/NetStorm?style=for-the-badge&color=yellow"></a>
-<a href="#"><img alt="NetStorm License" src="https://img.shields.io/github/license/CirqueiraDev/NetStorm?color=orange&style=for-the-badge"></a>
-<a href="https://github.com/CirqueiraDev/NetStorm"><img alt="Issues" src="https://komarev.com/ghxpvc/?username=CirqueiraDev&style=for-the-badge&color=blueviolet&label=Views"></a>
+<a href="#"><img alt="NetStorm" src="https://img.shields.io/badge/version-1.0-blueviolet?style=for-the-badge&logo=github"></a>
+<a href="#"><img alt="NetStorm" src="https://img.shields.io/badge/status-dev-blue?style=for-the-badge&logo=python"></a>
 
 <p align="center">Please don't attack websites without the owner's consent.</p>
 
