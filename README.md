@@ -19,7 +19,7 @@
 
 ### 💣 Layer 7 Methods
 
-| Comando       | Nome       | Descrição                                                           |
+|               | Nome       | Descrição                                                           |
 |---------------|------------|----------------------------------------------------------------------|
 | `get`         | GET        | GET Flood                                                           |
 | `post`        | POST       | POST Flood                                                          |
@@ -42,7 +42,6 @@
 | `apache`      | APACHE     | Apache Exploit                                                     |
 | `xmlrpc`      | XMLRPC     | WP XMLRPC exploit (`/xmlrpc.php`)                                 |
 | `cfb`         | CFB        | CloudFlare Bypass                                                  |
-| `cfbuam`      | CFBUAM     | CloudFlare Under Attack Mode Bypass                                |
 | `bypass`      | BYPASS     | Generic AntiDDoS Bypass                                            |
 | `tor`         |  TOR      | Bypass Onion websites                                              |
 
@@ -50,7 +49,7 @@
 
 ### 🧨 Layer 4 Methods
 
-| Comando       | Nome         | Descrição                                               |
+|               | Nome         | Descrição                                               |
 |---------------|--------------|----------------------------------------------------------|
 | `tcp`         | TCP          | TCP Flood Bypass                                        |
 | `udp`         | UDP          | UDP Flood Bypass                                        |
