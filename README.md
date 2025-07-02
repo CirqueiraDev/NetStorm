@@ -76,33 +76,32 @@
 
 ### ⚙️ Tools
 
-> Execute com: `python3 start.py tools`
+> Run with: `python3 start.py tools`
 
-| Comando   | Descrição                                                         |
-|-----------|--------------------------------------------------------------------|
-| `cfip`    | Encontrar IP real por trás do Cloudflare                        |
-| `dns`     |  Mostrar registros DNS                                           |
-| `tssrv`   | Resolver SRV de TeamSpeak                                       |
-| `ping`    | Enviar pacotes de ping                                          |
-| `check`   | Verificar status de um site                                     |
-| `dstat`   | Ver tráfego (bytes recebidos e enviados)                       |
+| Command    | Description                                                |
+|------------|------------------------------------------------------------|
+| `cfip`     | Find the real IP behind Cloudflare                         |
+| `dns`      | Show DNS records                                           |
+| `tssrv`    | Resolve TeamSpeak SRV records                              |
+| `ping`     | Send ping packets                                          |
+| `check`    | Check the status of a website                              |
+| `dstat`    | Show traffic (bytes received and sent)                     |
 
-| Comando   | Descrição                      |
-|-----------|-------------------------------|
-| `stop`    | Parar todos os ataques      |
-| `tools`   | Abrir menu de ferramentas   |
-| `help`    | Mostrar instruções          |
-
-
----
-
-### Aviso Legal
-
-Este projeto é apenas para testes autorizados e propósitos educacionais. O uso indevido pode violar leis locais e internacionais. Você é o único responsável pelo uso desta ferramenta.
+| Command    | Description                     |
+|------------|----------------------------------|
+| `stop`     | Stop all running attacks         |
+| `tools`    | Open tools menu                  |
+| `help`     | Show usage instructions          |
 
 ---
 
-### Instalação
+### ⚠️ Legal Disclaimer
+
+This project is intended for authorized testing and educational purposes only. Misuse may violate local and international laws. You are solely responsible for how you use this tool.
+
+---
+
+### 🚀 Installation
 
 ```bash
 git clone https://github.com/CirqueiraDev/NetStorm.git
@@ -114,9 +113,9 @@ pip install -r requirements.txt
 
 ### Créditos
 
-- Script original Desenvolvido por [**MatrixTM**](https://github.com/MatrixTM/MHDDoS)
+- Original script developed by [**MatrixTM**](https://github.com/MatrixTM/MHDDoS)
 
-- Modificado e mantido por [**CirqueiraDev**](https://github.com/CirqueiraDev)
+- Modified and maintained by [**CirqueiraDev**](https://github.com/CirqueiraDev)
 
 
 ### Redes Sociais
