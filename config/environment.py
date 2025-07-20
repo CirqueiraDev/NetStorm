@@ -6,7 +6,7 @@ from pathlib import Path
 from json import load
 
 basicConfig(format='[%(asctime)s - %(levelname)s] %(message)s', datefmt="%H:%M:%S")
-logger = getLogger("MHDDoS")
+logger = getLogger("NetStorm")
 logger.setLevel("INFO")
 
 ctx = create_default_context(cafile=where())

