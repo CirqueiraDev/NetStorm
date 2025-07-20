@@ -60,7 +60,7 @@
 | `ts3`         | TS3          | TeamSpeak 3 Status Ping                                 |
 | `fivem`       | FIVEM        | FiveM Status Ping                                       |
 | `fivem-token` | FIVEM-TOKEN  | FiveM Token Flood                                       |
-| `discord`     | DISCORD      | Custom RAW packet flood                                 |
+| `discord`     | DISCORD      | Magic Bytes UDP Flood                                   |
 | `mem`         | MEM          | Memcached Amplification                                 |
 | `ntp`         | NTP          | NTP Amplification                                       |
 | `mcbot`       | MCBOT        | Minecraft Bot Flood                                     |

