@@ -17,60 +17,60 @@
 
 ### 💣 Layer 7 Methods
 
-|               | Comando    | Descrição                                                           |
-|---------------|------------|----------------------------------------------------------------------|
-| `get`         | GET        | GET Flood                                                           |
-| `post`        | POST       | POST Flood                                                          |
-| `ovh`         | OVH        | Bypass OVH                                                         |
-| `ovh`         | RHEX       | Random HEX                                                         |
-| `ovh`         | STOMP      | Bypass chk_captcha                                                 |
-| `stress`      | STRESS     | Send HTTP Packet With High Byte                                    |
-| `dyn`         | DYN        | Method with Random SubDomain                                       |
-| `downloader`  | DOWNLOADER | Read data slowly                                                   |
-| `slow`        | SLOW       | Slowloris (classic method)                                         |
-| `head`        | HEAD       | [HTTP HEAD](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/HEAD) |
-| `null`        | NULL       | Null User-Agent and other headers                                  |
-| `cookie`      | COOKIE     | Random Cookie (`isset($_COOKIE)`)                                 |
-| `pps`         | PPS        | Only `GET / HTTP/1.1\r\n\r\n`                                      |
-| `even`        | EVEN       | GET with extended headers                                          |
-| `googleshield`| GSB        | Google Project Shield Bypass                                       |
-| `ddosguard`   | DGB        | DDoS Guard Bypass                                                  |
-| `arvancloud`  | AVB        | Arvan Cloud Bypass                                                 |
-| `bot`         | BOT        | Imitate Google bot                                                 |
-| `apache`      | APACHE     | Apache Exploit                                                     |
-| `xmlrpc`      | XMLRPC     | WP XMLRPC exploit (`/xmlrpc.php`)                                 |
-| `cfb`         | CFB        | CloudFlare Bypass                                                  |
-| `bypass`      | BYPASS     | Generic AntiDDoS Bypass                                            |
-| `tor`         |  TOR      | Bypass Onion websites                                              |
+| Comando    | Description                                                        |
+|------------|--------------------------------------------------------------------|
+| GET        | GET Flood                                                          |
+| POST       | POST Flood                                                         |
+| OVH        | Bypass OVH                                                         |
+| RHEX       | Random HEX                                                         |
+| STOMP      | Bypass chk_captcha                                                 |
+| STRESS     | Send HTTP Packet With High Byte                                    |
+| DYN        | Method with Random SubDomain                                       |
+| DOWNLOADER | Read data slowly                                                   |
+| SLOW       | Slowloris (classic method)                                         |
+| HEAD       | [HTTP HEAD](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/HEAD) |
+| NULL       | Null User-Agent and other headers                                  |
+| COOKIE     | Random Cookie (`isset($_COOKIE)`)                                  |
+| PPS        | Only `GET / HTTP/1.1\r\n\r\n`                                      |
+| EVEN       | GET with extended headers                                          |
+| GSB        | Google Project Shield Bypass                                       |
+| DGB        | DDoS Guard Bypass                                                  |
+| AVB        | Arvan Cloud Bypass                                                 |
+| BOT        | Imitate Google bot                                                 |
+| APACHE     | Apache Exploit                                                     |
+| XMLRPC     | WP XMLRPC exploit (`/xmlrpc.php`)                                  |
+| CFB        | CloudFlare Bypass                                                  |
+| BYPASS     | Generic AntiDDoS Bypass                                            |
+|  TOR      | Bypass Onion websites                                               |
 
 ---
 
 ### 🧨 Layer 4 Methods
 
-|               | Comando      | Descrição                                               |
-|---------------|--------------|----------------------------------------------------------|
-| `tcp`         | TCP          | TCP Flood Bypass                                        |
-| `udp`         | UDP          | UDP Flood Bypass                                        |
-| `syn`         | SYN          | SYN Flood                                               |
-| `ovh`         | OVH-UDP      | UDP with random headers/payload to bypass OVH/WAF       |
-| `cps`         | CPS          | Open and close connections with proxy                   |
-| `icmp`        | ICMP         | ICMP Echo Request Flood (Layer3)                        |
-| `connection`  | CONNECTION   | Keep connections alive with proxy                       |
-| `vse`         | VSE          | Valve Source Engine Protocol                            |
-| `ts3`         | TS3          | TeamSpeak 3 Status Ping                                 |
-| `fivem`       | FIVEM        | FiveM Status Ping                                       |
-| `fivem-token` | FIVEM-TOKEN  | FiveM Token Flood                                       |
-| `discord`     | DISCORD      | Magic Bytes UDP Flood                                   |
-| `mem`         | MEM          | Memcached Amplification                                 |
-| `ntp`         | NTP          | NTP Amplification                                       |
-| `mcbot`       | MCBOT        | Minecraft Bot Flood                                     |
-| `minecraft`   | MINECRAFT    | Minecraft Status Ping                                   |
-| `mcpe`        | MCPE         | Minecraft PE Status Ping                                |
-| `dns`         | DNS          | DNS Amplification                                       |
-| `char`        | CHAR         | Chargen Amplification                                   |
-| `cldap`       | CLDAP        | CLDAP Amplification                                     |
-| `ard`         | ARD          | Apple Remote Desktop Amplification                      |
-| `rdp`         | RDP          | Remote Desktop Protocol Amplification                   |
+| Comando      | Description                                              |
+|--------------|----------------------------------------------------------|
+| TCP          | TCP Flood Bypass                                         |
+| UDP          | UDP Flood Bypass                                         |
+| SYN          | SYN Flood                                                |
+| OVH-UDP      | UDP with random headers/payload to bypass OVH/WAF        |
+| CPS          | Open and close connections with proxy                    |
+| ICMP         | ICMP Echo Request Flood (Layer3)                         |
+| CONNECTION   | Keep connections alive with proxy                        |
+| VSE          | Valve Source Engine Protocol                             |
+| TS3          | TeamSpeak 3 Status Ping                                  |
+| FIVEM        | FiveM Status Ping                                        |
+| FIVEM-TOKEN  | FiveM Token Flood                                        |
+| DISCORD      | Magic Bytes UDP Flood                                    |
+| MEM          | Memcached Amplification                                  |
+| NTP          | NTP Amplification                                        |
+| MCBOT        | Minecraft Bot Flood                                      |
+| MINECRAFT    | Minecraft Status Ping                                    |
+| MCPE         | Minecraft PE Status Ping                                 |
+| DNS          | DNS Amplification                                        |
+| CHAR         | Chargen Amplification                                    |
+| CLDAP        | CLDAP Amplification                                      |
+| ARD          | Apple Remote Desktop Amplification                       |
+| RDP          | Remote Desktop Protocol Amplification                    |
 
 ---
 
