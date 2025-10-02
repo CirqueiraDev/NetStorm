@@ -1,3 +1,4 @@
+import threading
 from contextlib import suppress
 from math import log2, trunc
 from re import compile
@@ -165,7 +166,7 @@ class Tools:
 
 
 class ToolsConsole:
-    METHODS = {"INFO", "TSSRV", "CFIP", "DNS", "PING", "CHECK", "DSTAT"}
+    METHODS = {"INFO", "TSSRV", "CFIP", "DNS", "PING", "CHECK", "DSTAT", "CNC"}
 
     @staticmethod
     def checkRawSocket():
@@ -201,6 +202,12 @@ class ToolsConsole:
                 print(f"{cmd} command not found")
                 continue
 
+            if cmd == "CNC":
+                from core.server import CNC  
+                host = input("Host [0.0.0.0]: ") or "0.0.0.0"
+                port = int(input("Port: "))
+                CNC(host, port)
+
             if cmd == "DSTAT":
                 with suppress(KeyboardInterrupt):
                     ld = net_io_counters(pernic=False)
@@ -228,6 +235,7 @@ class ToolsConsole:
                              Tools.humanformat(t[2]), Tools.humanformat(t[3]),
                              t[4], t[5], t[6], t[7], str(cpu_percent()) + "%",
                              str(virtual_memory().percent) + "%"))
+            
             if cmd in ["CFIP", "DNS"]:
                 print("Soon")
                 continue
@@ -370,8 +378,7 @@ class ToolsConsole:
             try:
                 srv_records = resolver.resolve(rec + domain, 'SRV')
                 for srv in srv_records:
-                    Info[rec] = str(srv.target).rstrip('.') + ':' + str(
-                        srv.port)
+                    Info[rec] = str(srv.target).rstrip('.') + ':' + str(srv.port)
             except:
                 Info[rec] = 'Not found'
 

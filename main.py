@@ -84,8 +84,7 @@ if __name__ == '__main__':
                 if threads > 1000:
                     logger.warning("Thread is higher than 1000")
                 if rpc > 100:
-                    logger.warning(
-                        "RPC (Request Pre Connection) is higher than 100")
+                    logger.warning("RPC (Request Pre Connection) is higher than 100")
 
                 proxies = handleProxyList(threads, con, proxy_li, proxy_ty, url)
                 for thread_id in range(threads):
@@ -128,6 +127,7 @@ if __name__ == '__main__':
 
                 if len(argv) >= 6:
                     argfive = argv[5].strip()
+                    print(argfive)
                     if argfive:
                         refl_li = Path(__dir__ / "resources/amplification" / argfive)
                         if method in {"NTP", "DNS", "RDP", "CHAR", "MEM", "CLDAP", "ARD"}:

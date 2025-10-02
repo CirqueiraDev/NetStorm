@@ -15,7 +15,7 @@ from impacket.ImpactPacket import IP, TCP, UDP, Data, ICMP
 from base64 import b64encode
 
 from core.tools import Tools
-from config.environment import __ip__, con, ctx
+from config.environment import __ip__, con
 from core.minecraft import Minecraft
 from core.counters import REQUESTS_SENT, BYTES_SENT
 

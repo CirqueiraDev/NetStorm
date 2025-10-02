@@ -80,18 +80,19 @@
 
 | Command    | Description                                                |
 |------------|------------------------------------------------------------|
-| `cfip`     | Find the real IP behind Cloudflare                         |
-| `dns`      | Show DNS records                                           |
-| `tssrv`    | Resolve TeamSpeak SRV records                              |
-| `ping`     | Send ping packets                                          |
-| `check`    | Check the status of a website                              |
-| `dstat`    | Show traffic (bytes received and sent)                     |
+| CFIP     | Find the real IP behind Cloudflare                           |
+| CNC      | Starts the command and control server.                       |
+| DNS      | Show DNS records                                             |
+| TSSRV    | Resolve TeamSpeak SRV records                                |
+| PING     | Send ping packets                                            |
+| CHECK    | Check the status of a website                                |
+| DSTAT    | Show traffic (bytes received and sent)                       |
 
-| Command    | Description                     |
+| Command    | Description                      |
 |------------|----------------------------------|
-| `stop`     | Stop all running attacks         |
-| `tools`    | Open tools menu                  |
-| `help`     | Show usage instructions          |
+| STOP     | Stop all running attacks           |
+| TOOLS    | Open tools menu                    |
+| HELP     | Show usage instructions            |
 
 ---
 
