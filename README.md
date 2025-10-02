@@ -81,7 +81,7 @@
 | Command    | Description                                                |
 |------------|------------------------------------------------------------|
 | CFIP     | Find the real IP behind Cloudflare                           |
-| CNC      | Starts the command and control server.                       |
+| CNC      | Starts the command and control server. [How to use](https://github.com/CirqueiraDev/NetStorm/blob/main/core/server.md)         |
 | DNS      | Show DNS records                                             |
 | TSSRV    | Resolve TeamSpeak SRV records                                |
 | PING     | Send ping packets                                            |
