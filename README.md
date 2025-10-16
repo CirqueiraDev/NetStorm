@@ -120,6 +120,6 @@ pip install -r requirements.txt
 
 
 ### Help:
-- For more information, contact me: [Telegram](https://t.me/cirqueiraz)
+- For more information, contact me: [Telegram](https://t.me/cirqueiradev)
 - **Discord: Cirqueira**
 - <a href="https://www.instagram.com/cirqueirax/">Instagram</a>
