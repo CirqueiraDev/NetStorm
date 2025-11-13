@@ -115,11 +115,7 @@ pip install -r requirements.txt
 ### Credits:
 
 - Original script developed by [**MatrixTM**](https://github.com/MatrixTM/MHDDoS)
-
 - Modified and maintained by [**CirqueiraDev**](https://github.com/CirqueiraDev)
-
-
-### Help:
-- For more information, contact me: [Telegram](https://t.me/cirqueiraz)
+- For more information, contact me: [Telegram](https://t.me/cirqueiradev)
 - **Discord: Cirqueira**
-- <a href="https://www.instagram.com/cirqueirax/">Instagram</a>
+- <a href="https://www.instagram.com/sirkeirax/">Instagram</a>
