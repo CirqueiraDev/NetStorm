@@ -60,7 +60,7 @@
 | TS3          | TeamSpeak 3 Status Ping                                  |
 | FIVEM        | FiveM Status Ping                                        |
 | FIVEM-TOKEN  | FiveM Token Flood                                        |
-| DISCORD      | Magic Bytes UDP Flood                                    |
+| UDP-MAGIC    | Magic Bytes UDP Flood                                    |
 | MEM          | Memcached Amplification                                  |
 | NTP          | NTP Amplification                                        |
 | MCBOT        | Minecraft Bot Flood                                      |

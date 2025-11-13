@@ -43,7 +43,7 @@ class Methods:
     LAYER4_METHODS: Set[str] = {*LAYER4_AMP,
                                 "TCP", "UDP", "SYN", "VSE", "MINECRAFT", "MCBOT",
                                 "CONNECTION", "CPS", "FIVEM", "FIVEM-TOKEN",
-                                "TS3", "MCPE", "ICMP", "DISCORD", "OVH-UDP",
+                                "TS3", "MCPE", "ICMP", "UDP-MAGIC", "OVH-UDP",
                                 }
 
     ALL_METHODS: Set[str] = {*LAYER4_METHODS, *LAYER7_METHODS}

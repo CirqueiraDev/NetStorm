@@ -127,7 +127,6 @@ if __name__ == '__main__':
 
                 if len(argv) >= 6:
                     argfive = argv[5].strip()
-                    print(argfive)
                     if argfive:
                         refl_li = Path(__dir__ / "resources/amplification" / argfive)
                         if method in {"NTP", "DNS", "RDP", "CHAR", "MEM", "CLDAP", "ARD"}:
@@ -144,7 +143,7 @@ if __name__ == '__main__':
                                 logger.setLevel("DEBUG")
                             proxy_ty = int(argfive)
                             proxy_li = Path(__dir__ / "resources/proxies" / argv[6].strip())
-                            proxies = handleProxyList(con, proxy_li, proxy_ty)
+                            proxies = handleProxyList(threads, con, proxy_li, proxy_ty)
                             if method not in {"MINECRAFT", "MCBOT", "TCP", "CPS", "CONNECTION"}:
                                 exit("this method cannot use for layer4 proxy")
 
